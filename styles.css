@@ -49,6 +49,7 @@ body {
 .nav-item:hover{
     font-weight: 500;
     background-color: yellow;
+    cursor: pointer;
 }
 
 
