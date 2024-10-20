@@ -1,1 +1,1 @@
-do check it out @ <h1>https://anshul-rohilla4.github.io/restaurant-menu-web/ </h1>
+do check it out @ <h1>https://restaurant-gus.netlify.app/</h1>
