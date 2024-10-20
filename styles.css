@@ -1,15 +1,57 @@
+:root {
+    --bs-navbar-padding-y: 0; /* Remove vertical padding for the navbar */
+}
+
+/* Optional: Adjusting padding for inner elements if needed */
+.navbar {
+    padding-top: var(--bs-navbar-padding-y); /* Ensure this remains zero */
+    padding-bottom: var(--bs-navbar-padding-y);
+}
+
+.navbar .container-fluid {
+    padding: 0; /* Remove padding from the container */
+}
+
+
 body {
-    background-color: rgb(246, 255, 161) !important;
+    background: linear-gradient(to right, #aca2a2, #274046)!important;
     padding-bottom: 100px;
     min-width: 360px;
+    margin: 0;
+    padding: 0;
+
 
 }  
 
-
 .container-fluid{
-    background-color: rgb(240, 255, 110) ;
+    background-color: #333333 ;
     justify-content: end;
+}
 
+
+.navbar {
+    padding-top: 0 !important;   /* Remove top padding */
+    padding-bottom: 0 !important; /* Remove bottom padding */
+}
+
+
+.navbar.bg-body-tertiary {
+    color: white !important; /* This targets the navbar directly */
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white !important; /* Ensure nav links are also white */
+}
+
+.navbar .navbar-brand {
+    color: white !important; /* Ensure the brand text is white */
+}
+
+
+
+.navbar-nav{
+    gap: 10px;
+    transition: ease-in;
 }
 
 
@@ -19,6 +61,7 @@ body {
 .navbar-brand{
     margin-top: 15px;
     font-weight: 400;
+
 }
 .d-flex{
     max-width: 700px;
@@ -51,6 +94,7 @@ body {
     background-color: yellow;
     cursor: pointer;
 }
+
 
 
 .middle-section{
@@ -98,6 +142,8 @@ body {
 
 .card-body {
     padding: 20px;
+    background: linear-gradient(to right, #FFF5E1, #F8E9D0);
+
 }
 
 .card-title {
